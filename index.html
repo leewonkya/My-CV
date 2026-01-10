@@ -1,12 +1,10 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quoc Ky La - Developer CV</title>
-    <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Tailwind Configuration -->
     <script>
         tailwind.config = {
             theme: {
@@ -14,325 +12,193 @@
                     fontFamily: {
                         sans: ['Inter', 'sans-serif'],
                     },
-                    colors: {
-                        'primary-blue': '#1053c5',
-                        'secondary-gray': '#f4f4f5', // zinc-100
-                    }
                 }
             }
         }
     </script>
-    <!-- Google Font: Inter -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
-
-    <!-- Custom CSS -->
     <style>
-        .section-heading {
-            border-left: 5px solid #1053c5;
-            padding-left: 1rem;
+        .section-title {
+            font-weight: 800;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            border-bottom: 1px solid #111;
+            padding-bottom: 0.25rem;
         }
     </style>
 </head>
-<body class="bg-gray-50 font-sans p-4 md:p-8">
-
-    <div class="max-w-4xl mx-auto bg-white shadow-2xl rounded-xl shadow-2xl overflow-hidden">
-        
-        <!-- HEADER - CONTACT INFORMATION -->
-        <header class="bg-primary-blue text-white p-6 md:p-8 flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0 rounded-t-xl">
-           
-            <div class="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-8">
-                <!-- Avatar/Image -->
-                <div class="flex-shrink-0">
-                    <img class="h-32 w-32 rounded-full border-4 border-white object-cover" 
-                         src="./images/171427112_1090199581385663_4696632589537168552_n.jpg" 
-                         alt="Avatar La Quoc Ky">
-                </div>
-    
-                <!-- Personal Info -->
-                <div class="text-center md:text-left">
-                    <h1 class="text-4xl font-extrabold tracking-tight">LA QUOC KY</h1>
-                    <p class="text-xl font-medium mt-1" id="job-title">MIDDLE .NET DEVELOPER</p>
-                    <div class="mt-3 text-sm flex flex-wrap justify-center md:justify-start gap-4">
-                        <span class="flex items-start space-x-2">
-                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
-                            <span>0365757308</span>
-                        </span>
-                        <span class="flex items-start space-x-2">
-                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8m-17 4v7a2 2 0 002 2h14a2 2 0 002-2v-7"></path></svg>
-                            <span>lqkydev99.it@gmail.com</span>
-                        </span>
-                        <span class="flex items-start space-x-2">
-                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.828 0l-4.243-4.243m10.606-10.607L13.414 3.1a1.998 1.998 0 00-2.828 0l-4.243 4.243m10.606 10.607h.001M7 7h.001"></path></svg>
-                            <span id="address">Ho Chi Minh</span>
-                        </span>
-                    </div>
-                </div>
+<body class="bg-white text-gray-900 font-sans p-6 md:p-10">
+    <div class="max-w-4xl mx-auto space-y-10">
+        <header class="text-center space-y-3">
+            <h1 class="text-3xl font-bold tracking-wide">La Quoc Ky</h1>
+            <p class="text-sm uppercase tracking-[0.22em]" id="job-title">Middle .NET Developer</p>
+            <div class="flex flex-wrap justify-center gap-4 text-sm">
+                <span class="flex items-center gap-2">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
+                    0365757308
+                </span>
+                <span class="flex items-center gap-2">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8m-17 4v7a2 2 0 002 2h14a2 2 0 002-2v-7"></path></svg>
+                    lqkydev99.it@gmail.com
+                </span>
+                <span class="flex items-center gap-2">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.828 0l-4.243-4.243m10.606-10.607L13.414 3.1a1.998 1.998 0 00-2.828 0l-4.243 4.243m10.606 10.607h.001M7 7h.001"></path></svg>
+                    Ho Chi Minh
+                </span>
             </div>
         </header>
 
-        <!-- MAIN CONTENT - VERTICAL LAYOUT -->
-        <main class="p-6 md:p-8 space-y-8"> 
-
-            <!-- CAREER OBJECTIVE -->
-            <section>
-                <h2 class="text-2xl font-bold text-gray-800 mb-4 section-heading">CAREER OBJECTIVE</h2>
-                <p class="text-gray-600 leading-relaxed" id="objective-content">
-                    YOUR CAREER OBJECTIVE GOES HERE. (e.g., Seeking to leverage 4+ years of expertise in .NET Core and Flutter to build scalable software solutions, aiming for a Full Stack role that drives product efficiency and market expansion.)
+        <main class="space-y-10">
+            <section class="space-y-3">
+                <h2 class="section-title">Career Objective</h2>
+                <p class="text-sm leading-relaxed" id="objective-content">
+                    Backend-first engineer with 4+ years building .NET Core APIs, PostgreSQL-backed services, and Flutter apps. Looking to help a product team ship scalable, reliable features that handle real-time workflows, reporting, and integrations with external systems.
                 </p>
             </section>
-            
-            <!-- PROFESSIONAL SKILLS -->
-            <section class="p-4 rounded-lg">
-                <h2 class="text-2xl font-bold text-gray-800 mb-4 section-heading">PROFESSIONAL SKILLS</h2>
-                
-                <!-- Project 1: GoSELL -->
-                <div class="p-4 border rounded-lg shadow-sm bg-gray-50 mb-6">
-                    <!-- Backend -->
-                    <div>
-                        <span class="font-bold text-primary-blue block mb-1">Back-end</span>
-                        <p class="text-sm text-gray-600" id="skill-backend">C#, .NET Core (API, MVC), Entity Framework Core, ASP.NET Web API.</p>
-                    </div>
 
-                    <!-- Frontend (Web UI/Mobile) -->
-                    <div class="mt-2">
-                        <span class="font-bold text-primary-blue block mb-1">Frontend (Web UI/Mobile)</span>
-                        <p class="text-sm text-gray-600" id="skill-frontend">HTML, CSS, JavaScript, JQuery/AJAX, Razor Pages (Web UI), Flutter (Mobile).</p>
-                    </div>
-                    
-                    <!-- Database -->
-                    <div class="mt-2">
-                        <span class="font-bold text-primary-blue block mb-1">Database</span>
-                        <p class="text-sm text-gray-600" id="skill-database">PostgreSQL, SQL Server.</p>
-                    </div>
-
-                    <!-- Programming Tools -->
-                    <div class="mt-2">
-                        <span class="font-bold text-primary-blue block mb-1">Programming Tools</span>
-                        <p class="text-sm text-gray-600" id="skill-tools">Visual Studio, VS Code, Android Studio, SSMS, PgAdmin 4.</p>
-                    </div>
-                    
-                    <!-- Development Process -->
-                    <div class="md:col-span-2 mt-2"> 
-                        <span class="font-bold text-primary-blue block mb-1">Development Process</span>
-                        <p class="text-sm text-gray-600" id="skill-process"> Hands-on experience with Agile/Scrum.</p>
-                    </div>
+            <section class="space-y-4">
+                <div class="flex items-center justify-between">
+                    <h2 class="section-title flex-1">Education</h2>
+                    <span class="text-sm text-gray-700 ml-4 whitespace-nowrap" id="edu-time">Oct 2017 - Jun 2021</span>
+                </div>
+                <div class="space-y-1">
+                    <h3 class="text-base font-semibold" id="edu-school">Dong Thap University</h3>
+                    <p class="text-sm text-gray-700" id="edu-major">Bachelor's Degree in Information Technology</p>
                 </div>
             </section>
 
-            <!-- WORK EXPERIENCE -->
-            <section>
-                <h2 class="text-2xl font-bold text-gray-800 mb-4 section-heading">WORK EXPERIENCE</h2>
-                <div class="space-y-4">
-                    <div class="pb-4 border-b border-gray-200">
-                        <h3 class="text-xl font-semibold text-primary-blue" id="exp-title-1"> Software Engineer (.NET Backend/Flutter)</h3>
-                        <div class="flex justify-between text-sm text-gray-600 mt-1">
-                            <span class="font-medium" id="exp-company-1">EZ NET Technology Co., Ltd</span>
-                            <span id="exp-time-1">Jul 2021 - Apr 2025</span>
-                        </div>
-                    </div>
-                    <!-- Add more experience blocks here if needed -->
+            <section class="space-y-4">
+                <div class="flex items-center justify-between">
+                    <h2 class="section-title flex-1">Work Experience</h2>
+                    <span class="text-sm text-gray-700 ml-4 whitespace-nowrap" id="exp-time-1">Jul 2021 - Apr 2025</span>
+                </div>
+                <div class="space-y-1">
+                    <h3 class="text-base font-semibold" id="exp-title-1">Software Engineer (.NET Backend/Flutter)</h3>
+                    <p class="text-sm text-gray-700" id="exp-company-1">EZ NET Technology Co., Ltd</p>
+                    <ul class="list-disc list-inside text-sm text-gray-700 space-y-1 mt-2">
+                        <li>Designed and shipped RESTful APIs and MVC modules for core business workflows and reporting.</li>
+                        <li>Built mobile features in Flutter (notifications, GPS check-in, liveness verification) backed by .NET APIs.</li>
+                        <li>Integrated external services (email, webhooks, ZaloOA) and maintained import/export pipelines.</li>
+                        <li>Optimized PostgreSQL queries to reduce report/export latency and improve API responsiveness.</li>
+                        <li>Collaborated with clients and supported teammates with debugging and delivery.</li>
+                    </ul>
                 </div>
             </section>
 
-            <!-- FEATURED PROJECTS -->
-            <section>
-                <h2 class="text-2xl font-bold text-gray-800 mb-4 section-heading">FEATURED PROJECTS</h2>
-                
-                <!-- Project 1: Role & Responsibility Assignment System -->
-                <div class="p-4 border rounded-lg shadow-sm bg-gray-50 mb-6">
-                    <h3 class="text-lg font-bold text-gray-800 mb-1" id="proj-title-1">Role & Responsibility Assignment System</h3>
-                    <div class="flex justify-start text-sm text-gray-500 mb-2" id="proj-details-1">
-                        <span class="font-medium text-primary-blue">.NET Developer</span>                                                
-                        <span class="ml-2"> | Team Size: 4</span>
-                        <span class="ml-2"> | Otc 2021 - Dec 2021</span>
-                    </div>
-                    <p class="text-sm font-medium text-gray-700 mb-2" id="proj-desc-1">
-                        <span class="font-bold">Description:</span> A system facilitating <span class="font-bold">request submission and management</span> within an organization. It allows staff to send requests (request) to relevant management levels and departmental members. Users receive <span class="font-bold">email notifications</span> upon approval or rejection by superiors.
-                    </p>
-                    <p class="text-sm font-medium text-gray-700 mb-2" id="proj-tech-1"><span class="font-bold">Technology:</span> .NET Core MVC, PostgreSQL, Entity Framework, SignalR.</p>
-                    
-                    <h4 class="text-md font-semibold text-gray-800 mt-4 mb-2">My Responsibilities:</h4>
-                    <ul class="list-disc list-inside text-sm text-gray-600 space-y-2 ml-4" id="proj-tasks-1">
-                        <li>Implemented User and Role Management modules.</li>
-                        <li>Developed the request approval and rejection workflow.</li>
-                        <li>Integrated Email Service to send automated notifications.</li>
-                        <li>Built the Import/Export functionality for project data.</li>
-                        <li>Improved application responsiveness across different devices.</li>
-                        <li>Supported team members in troubleshooting and resolving technical issues.</li>
-                        <li>Collaborated with clients via WhatsApp to ensure quality delivery.</li>
-                </div>
-                <!-- Add more project blocks here if needed -->
-                 
-                <!-- Project 2: Retail Store Audit & Evaluation System -->
-                <div class="p-4 border rounded-lg shadow-sm bg-gray-50 mb-6">
-                    <h3 class="text-lg font-bold text-gray-800 mb-1" id="proj-title-1">Retail Store Audit & Evaluation System</h3>
-                    <div class="flex justify-start text-sm text-gray-500 mb-2" id="proj-details-1">
-                        <span class="font-medium text-primary-blue">.NET & Mobile Developer</span>                                                
-                        <span class="ml-2"> | Team Size: 5</span>
-                        <span class="ml-2"> | May 2023 - Dec 2024</span>
-                    </div>
-                    <p class="text-sm font-medium text-gray-700 mb-2" id="proj-desc-1">
-                        <span class="font-bold">Description:</span> A system designed to support 
-                        <span class="font-bold">Field Auditors</span> 
-                        in performing <span class="font-bold">retail store evaluations</span>.
-                        Auditors use the mobile application to conduct audits <span class="font-bold">at GPS-verified</span> store locations. 
-                        The data is then <span class="font-bold">submitted to the main system</span>, where audit reports are routed to the relevant <span class="font-bold">Regional Managers</s> for review and action.
-                    </p>
-                    <p class="text-sm font-medium text-gray-700 mb-2" id="proj-tech-1">
-                        <span class="font-bold">Technology:</span> .NET Core MVC, REST APIs, PostgreSQL, Entity Framework, Flutter, Firebase, Google Map.
-                    </p>
-                    
-                    <h4 class="text-md font-semibold text-gray-800 mt-4 mb-2">My Responsibilities:</h4>
-                    <ul class="list-disc list-inside text-sm text-gray-600 space-y-2 ml-4" id="proj-tasks-1">
-                        <li>Engineered high-performance RESTful API endpoints using .NET Core to support complex mobile functionalities.</li>
-                        <li>Designed and implemented security-critical API logic for GPS verification and real-time facial authentication workflows.</li>
-                        <li>Optimized data queries in PostgreSQL and managed data synchronization to ensure fast and efficient web and mobile app performance.</li>
-                        <li>Maintain Export Functionality and Handle Customization Requests.</li>
-                        <li>Configured and implemented mobile notification system using FCM and APNs.</li>
-                        <li>Set up the Mobile Application Features and Backend MVC Architecture foundation.</li>
-                        <li>Implement Notification Listener, Google Maps, Direct Call Features.</li>    
-                        <li>Supported team members in troubleshooting and resolving technical issues.</li>
-                        <li>Collaborated with clients via Zalo to ensure quality delivery.</li>
-                    </ul>
-                </div>
-                <!-- Add more project blocks here if needed -->
-                 
-                <!-- Project 3: Workforce Field Operations System -->
-                <div class="p-4 border rounded-lg shadow-sm bg-gray-50 mb-6">
-                    <h3 class="text-lg font-bold text-gray-800 mb-1" id="proj-title-1">Workforce Field Operations System</h3>
-                    <div class="flex justify-start text-sm text-gray-500 mb-2" id="proj-details-1">
-                        <span class="font-medium text-primary-blue">.NET & Mobile Developer</span>                                                
-                        <span class="ml-2"> | Team Size: 4 members</span>
-                        <span class="ml-2"> | Jan 2023 - Dec 2024</span>
-                    </div>
-                    <p class="text-sm font-medium text-gray-700 mb-2" id="proj-desc-1">
-                        <span class="font-bold">Description: 
-                            </span>A centralized platform designed for high-level company positions, such as <span class="font-bold">TeamLeads, Supervisors, Regional Managers, 
-                            and Administrators </span>, to manage personnel and affiliated retail stores.
-                        
-                    </p>
-                    <p class="text-sm font-medium text-gray-700 mb-2" id="proj-tech-1">
-                        <span class="font-bold">Technology:</span> 
-                        <ul class="list-disc list-inside text-sm text-gray-600 space-y-2 ml-4" id="proj-tasks-1">
-                            <li>Backend & Core: .NET Core (MVC, RESTful APIs), Entity Framework, PostgreSQL (Advanced Querying), Cronjob, Third-party Web Hooks.</li>
-                            <li>Mobile & Integration: Flutter, Firebase, Liveness-Detection SDK.</li>
-                            <li>Business Integration: ZaloOA (Custom API Development).</li>
-                        </ul>
-                    </p>
-                    
-                    <h4 class="text-md font-semibold text-gray-800 mt-4 mb-2">My Responsibilities:</h4>
-                    <ul class="list-disc list-inside text-sm text-gray-600 space-y-2 ml-4" id="proj-tasks-1">
-                        <li>Set up the project environment and established the Backend MVC Architecture.</li>
-                        <li>Implemented core data management modules, including User and Role Modules and Category Management.</li>
-                        <li>Engineered high-performance RESTful API endpoints using .NET Core to support complex mobile functionalities.</li>
-                        <li>Built the Import/Export functionality and Optimized PostgreSQL queries to ensure fast and efficient data processing.</li>
-                        <li>Maintained Export functionality and Handled customization requests from end-users.</li>
-                        <li>Spearheaded performance optimization efforts on a critical export report, debugging and refactoring high-latency PostgreSQL queries.</li>
-                        <li>Configured and implemented the mobile notification system using FCM and APNs.</li>
-                        <li>Spearheaded the development of a critical, high-integration module, designing the technical architecture for external API integrations and the ZaloOA communication layer.</li>
-                        <li>Managed the full module lifecycle: responsible for estimation, technical design, defining work tickets, and task assignment for the member.</li>
-                        <li>Supported team members in troubleshooting and resolving technical issues.</li>
-                        <li>Collaborated with clients via Zalo to ensure quality delivery.</li>
-                    </ul>
-                </div>
-                <!-- Add more project blocks here if needed -->
-                 
-                <!-- Project 4: Workforce Management & Coordination System – FieldForce -->
-                <div class="p-4 border rounded-lg shadow-sm bg-gray-50 mb-6">
-                    <h3 class="text-lg font-bold text-gray-800 mb-1" id="proj-title-1">Workforce Management & Coordination System – FieldForce</h3>
-                    <div class="flex justify-start text-sm text-gray-500 mb-2" id="proj-details-1">
-                        <span class="font-medium text-primary-blue">.NET & Mobile Developer</span>                                                
-                        <span class="ml-2"> | Team Size: 4 members</span>
-                        <span class="ml-2"> | May 2023 - Dec 2024</span>
-                    </div>
-                    <p class="text-sm font-medium text-gray-700 mb-2" id="proj-desc-1">
-                        <span class="font-bold">Description: 
-                            </span>
-                            A sophisticated enterprise system centered on <span class="font-bold">Business Intelligence (BI), Reporting, and Data Scheduling</span>. The platform empowers management (Leads, Supervisors, Regional Managers, and Administrators) to oversee field personnel and operations.
-                        
-                    </p>
-                    <p class="text-sm font-medium text-gray-700 mb-2" id="proj-tech-1">
-                        <span class="font-bold">Technology:</span> 
-                        <ul class="list-disc list-inside text-sm text-gray-600 space-y-2 ml-4" id="proj-tasks-1">
-                            <li>Backend & Core: .NET Core (MVC, RESTful APIs), Entity Framework, PostgreSQL (Advanced Querying), Cronjob, Third-party Image Detection API.</li>
-                            <li>Mobile & Integration: Flutter, Firebase, Liveness-Detection SDK.</li>
-                        </ul>
-                    </p>
-                    <h4 class="text-md font-semibold text-gray-800 mt-4 mb-2">My Responsibilities:</h4>
-                    <ul class="list-disc list-inside text-sm text-gray-600 space-y-2 ml-4" id="proj-tasks-1">
-                        <li>Set up the project environment and established the Backend MVC Architecture.</li>
-                        <li>Implemented core data management modules, including User and Role Modules and Category Management.</li>
-                        <li>Engineered high-performance RESTful API endpoints using .NET Core to support complex mobile functionalities.</li>
-                        <li>Built the Import/Export functionality and Optimized PostgreSQL queries to ensure fast and efficient data processing.</li>
-                        <li>Maintained Export functionality and Handled customization requests from end-users.</li>
-                        <li>Implemented the avatar scanning feature for AI training data and user check-in verification using Image Detection data.</li>
-                        <li>Spearheaded performance optimization efforts on a critical export report, debugging and refactoring high-latency PostgreSQL queries.</li>
-                        <li>Configured and implemented the mobile notification system using FCM and APNs.</li>
-                        <li>Supported team members in troubleshooting and resolving technical issues.</li>
-                        <li>Collaborated with clients via Zalo to ensure quality delivery.</li>
-                    </ul>
-                </div>
-                <!-- Add more project blocks here if needed -->
-                 
-            </section>
-            
-            <!-- EDUCATION -->
-            <section class="p-4 bg-secondary-gray rounded-lg shadow-inner">
-                <h2 class="text-2xl font-bold text-gray-800 mb-4 section-heading">EDUCATION</h2>
+            <section class="space-y-8">
+                <h2 class="section-title">Projects</h2>
+
                 <div class="space-y-2">
-                    <h3 class="text-lg font-semibold text-primary-blue" id="edu-school">Dong Thap University</h3>
-                    <p class="text-gray-700" id="edu-major">Bachelor's Degree in Information Technology</p>
-                    <p class="text-sm text-gray-500" id="edu-time">Oct 2017 - Jun 2021</p>
+                    <div class="flex items-center justify-between">
+                        <h3 class="text-base font-semibold" id="proj-title-1">Role & Responsibility Assignment System</h3>
+                        <span class="text-sm text-gray-700 whitespace-nowrap">Oct 2021 - Dec 2021</span>
+                    </div>
+                    <p class="text-sm font-medium text-gray-800">Full Stack Developer</p>
+                    <p class="text-sm text-gray-700" id="proj-desc-1">
+                        <span class="font-semibold">Summary:</span> Internal workflow platform to route staff requests to the right managers and teams, with email notifications for approvals or rejections.
+                    </p>
+                    <p class="text-sm text-gray-700" id="proj-tech-1"><span class="font-semibold">Tech:</span> .NET Core MVC, PostgreSQL, Entity Framework, SignalR.</p>
+                    <div>
+                        <p class="text-sm font-semibold text-gray-800">Responsibilities:</p>
+                        <ul class="list-disc list-inside text-sm text-gray-700 space-y-1 ml-2">
+                            <li>Implemented User and Role Management modules.</li>
+                            <li>Developed the request approval and rejection workflow.</li>
+                            <li>Integrated Email Service to send automated notifications.</li>
+                            <li>Built the import/export functionality for project data.</li>
+                            <li>Improved application responsiveness across different devices.</li>
+                            <li>Supported team members in troubleshooting and resolving technical issues.</li>
+                        </ul>
+                    </div>
                 </div>
-            </section>
 
+                <div class="space-y-2">
+                    <div class="flex items-center justify-between">
+                        <h3 class="text-base font-semibold" id="proj-title-2">Retail Store Audit & Evaluation System</h3>
+                        <span class="text-sm text-gray-700 whitespace-nowrap">May 2023 - Dec 2024</span>
+                    </div>
+                    <p class="text-sm font-medium text-gray-800">.NET & Mobile Developer</p>
+                    <p class="text-sm text-gray-700">
+                        <span class="font-semibold">Summary:</span> Platform for Field Auditors to perform GPS-verified retail store evaluations via mobile. Audit data syncs to the main system so Regional Managers can review, route, and act on reports.
+                    </p>
+                    <p class="text-sm text-gray-700"><span class="font-semibold">Tech:</span> .NET Core MVC, REST APIs, PostgreSQL, Entity Framework, Flutter, Firebase, Google Map.</p>
+                    <div>
+                        <p class="text-sm font-semibold text-gray-800">Responsibilities:</p>
+                        <ul class="list-disc list-inside text-sm text-gray-700 space-y-1 ml-2">
+                            <li>Engineered high-performance RESTful API endpoints using .NET Core to support complex mobile functionalities.</li>
+                            <li>Designed and implemented security-critical API logic for GPS verification and real-time facial authentication workflows.</li>
+                            <li>Optimized data queries in PostgreSQL and managed data synchronization to ensure fast and efficient web and mobile app performance.</li>
+                            <li>Maintained export functionality and handled customization requests.</li>
+                            <li>Configured and implemented the mobile notification system using FCM and APNs.</li>
+                            <li>Set up the mobile application features and backend MVC architecture foundation.</li>
+                            <li>Implemented notification listener, Google Maps, and direct call features.</li>
+                            <li>Collaborated with clients via Zalo to ensure quality delivery.</li>
+                        </ul>
+                    </div>
+                </div>
 
-            <!-- REFERENCE CONTACT -->
-            <section>
-                <h2 class="text-2xl font-bold text-gray-800 mb-4 section-heading">REFERENCE CONTACT</h2>
-                <div class="flex flex-col md:flex-row md:space-x-8 space-y-4 md:space-y-0 p-4 bg-secondary-gray rounded-lg shadow-inner">
-                    <div class="flex-1">
-                        <p class="font-semibold text-lg" id="contact-name">Nguyen Thanh Tien</p>
-                        <p class="text-gray-700" id="contact-company">EZ NET Technology Co., Ltd</p>
-                        <p class="text-primary-blue mt-1" id="contact-email">cskh@eznet.com.vn</p>
+                <div class="space-y-2">
+                    <div class="flex items-center justify-between">
+                        <h3 class="text-base font-semibold" id="proj-title-3">Workforce Field Operations System</h3>
+                        <span class="text-sm text-gray-700 whitespace-nowrap">Jan 2023 - Dec 2024</span>
+                    </div>
+                    <p class="text-sm font-medium text-gray-800">.NET & Mobile Developer</p>
+                    <p class="text-sm text-gray-700">
+                        <span class="font-semibold">Summary:</span> Centralized platform for Team Leads, Supervisors, Regional Managers, and Administrators to manage personnel and affiliated retail stores.
+                    </p>
+                    <p class="text-sm text-gray-700"><span class="font-semibold">Tech:</span> .NET Core (MVC, RESTful APIs), Entity Framework, PostgreSQL (advanced querying), cronjobs, third-party webhooks; Flutter, Firebase, Liveness-Detection SDK; ZaloOA (custom API development).</p>
+                    <div>
+                        <p class="text-sm font-semibold text-gray-800">Responsibilities:</p>
+                        <ul class="list-disc list-inside text-sm text-gray-700 space-y-1 ml-2">
+                            <li>Set up the project environment and established the Backend MVC Architecture.</li>
+                            <li>Implemented core data management modules, including User and Role Modules and Category Management.</li>
+                            <li>Engineered high-performance RESTful API endpoints using .NET Core to support complex mobile functionalities.</li>
+                            <li>Built the import/export functionality and optimized PostgreSQL queries to ensure fast and efficient data processing.</li>
+                            <li>Maintained export functionality and handled customization requests from end-users.</li>
+                            <li>Spearheaded performance optimization efforts on a critical export report, debugging and refactoring high-latency PostgreSQL queries.</li>
+                            <li>Configured and implemented the mobile notification system using FCM and APNs.</li>
+                            <li>Spearheaded the development of a high-integration module, designing the technical architecture for external API integrations and the ZaloOA communication layer.</li>
+                            <li>Managed the full module lifecycle: estimation, technical design, defining work tickets, and task assignment.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="space-y-2">
+                    <div class="flex items-center justify-between">
+                        <h3 class="text-base font-semibold" id="proj-title-4">Workforce Management & Coordination System - FieldForce</h3>
+                        <span class="text-sm text-gray-700 whitespace-nowrap">May 2023 - Dec 2024</span>
+                    </div>
+                    <p class="text-sm font-medium text-gray-800">.NET & Mobile Developer</p>
+                    <p class="text-sm text-gray-700">
+                        <span class="font-semibold">Summary:</span> Enterprise platform centered on Business Intelligence, reporting, and data scheduling to help Leads, Supervisors, Regional Managers, and Administrators oversee field personnel and operations.
+                    </p>
+                    <p class="text-sm text-gray-700"><span class="font-semibold">Tech:</span> .NET Core (MVC, RESTful APIs), Entity Framework, PostgreSQL (advanced querying), cronjobs, third-party image detection APIs; Flutter, Firebase, Liveness-Detection SDK.</p>
+                    <div>
+                        <p class="text-sm font-semibold text-gray-800">Responsibilities:</p>
+                        <ul class="list-disc list-inside text-sm text-gray-700 space-y-1 ml-2">
+                            <li>Set up the project environment and established the Backend MVC Architecture.</li>
+                            <li>Implemented core data management modules, including User and Role Modules and Category Management.</li>
+                            <li>Engineered high-performance RESTful API endpoints using .NET Core to support complex mobile functionalities.</li>
+                            <li>Built the import/export functionality and optimized PostgreSQL queries to ensure fast and efficient data processing.</li>
+                            <li>Maintained export functionality and handled customization requests from end-users.</li>
+                            <li>Implemented the avatar scanning feature for AI training data and user check-in verification using image detection data.</li>
+                            <li>Spearheaded performance optimization efforts on a critical export report, debugging and refactoring high-latency PostgreSQL queries.</li>
+                            <li>Configured and implemented the mobile notification system using FCM and APNs.</li>
+                            <li>Supported team members in troubleshooting and resolving technical issues.</li>
+                        </ul>
                     </div>
                 </div>
             </section>
 
+            <section class="space-y-3">
+                <h2 class="section-title">Reference</h2>
+                <div>
+                    <p class="font-semibold text-sm" id="contact-name">Nguyen Thanh Tien</p>
+                    <p class="text-sm text-gray-700" id="contact-company">EZ NET Technology Co., Ltd</p>
+                    <p class="text-sm text-gray-700" id="contact-email">cskh@eznet.com.vn</p>
+                </div>
+            </section>
         </main>
-
-        <!-- FOOTER -->
-        <footer class="p-4 text-center text-sm text-gray-500 border-t mt-4">
-            <p>CV created from the personal data of La Quoc Ky.</p>
-        </footer>
-
     </div>
-
-    <script>
-        // Placeholder function for language buttons (now purely aesthetic)
-        document.addEventListener('DOMContentLoaded', () => {
-            const langButtons = document.querySelectorAll('.lang-btn');
-            
-            // Set EN as active initially
-            document.getElementById('lang-en').classList.remove('bg-gray-500', 'text-white', 'hover:bg-gray-400');
-            document.getElementById('lang-en').classList.add('bg-white', 'text-primary-blue', 'hover:bg-gray-200');
-
-            // Simple click listener to simulate button change, though no actual translation happens.
-            langButtons.forEach(button => {
-                button.addEventListener('click', (e) => {
-                    const lang = e.target.getAttribute('data-lang');
-                    langButtons.forEach(btn => {
-                        btn.classList.remove('bg-white', 'text-primary-blue', 'hover:bg-gray-200');
-                        btn.classList.add('bg-gray-500', 'text-white', 'hover:bg-gray-400');
-                    });
-
-                    e.target.classList.remove('bg-gray-500', 'text-white', 'hover:bg-gray-400');
-                    e.target.classList.add('bg-white', 'text-primary-blue', 'hover:bg-gray-200');
-                    document.documentElement.lang = lang;
-                });
-            });
-        });
-    </script>
 </body>
 </html>
